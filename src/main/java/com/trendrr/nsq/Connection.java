@@ -135,7 +135,7 @@ public class Connection {
 
 
 	void heartbeat() {
-		log.info("HEARTBEAT!");
+		log.debug("HEARTBEAT!");
 		this.heartbeats++;
 		this.lastHeartbeat = new Date();
 		//send NOP here.
